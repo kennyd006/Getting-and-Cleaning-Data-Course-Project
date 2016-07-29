@@ -32,7 +32,9 @@ Merge test and training tables into one
 
 ## Section 2. Extract only the measurements on the mean and standard deviation for each measurement 
 Get all column names from merged data
+
 Create a logical vector indicating columns that include 'std' or 'mean'(or are the subjectId or activity columns)
+
 Keep only the appropriate columns
 
 ## Section 3. Use descriptive activity names to name the activities in the data set
@@ -46,5 +48,6 @@ Alter variable names using gsub function to replace truncated terms with expande
 
 ## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
 Aggregate and Order data set 
+
 Write into the following file in the current working directory the tidy data set:
 * tidyData.txt
