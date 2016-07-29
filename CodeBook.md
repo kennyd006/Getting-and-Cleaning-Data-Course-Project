@@ -46,5 +46,6 @@ Alter variable names using gsub function to replace truncated terms with expande
 
 ## Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
 Aggregate and Order data set 
+
 Write into the following file in the current working directory the tidy data set:
 * tidyData.txt
